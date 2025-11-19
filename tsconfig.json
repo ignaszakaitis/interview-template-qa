@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "lib": ["es6", "dom"],
+        "types": ["node", "@playwright/test", "@cucumber/cucumber"]
+    }
+}
